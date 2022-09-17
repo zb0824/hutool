@@ -61,7 +61,7 @@ public class Hutool {
 	/**
 	 * 控制台打印所有工具类
 	 */
-	public static void printAllUtil() {
+	public static void printAllUtils() {
 		final Set<Class<?>> allUtils = getAllUtils();
 		final ConsoleTable consoleTable = ConsoleTable.create().addHeader("工具类名", "所在包");
 		for (Class<?> clazz : allUtils) {
